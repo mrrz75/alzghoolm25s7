@@ -65,4 +65,10 @@ ul{
     padding: 4em;
 }
 
+/*
+Make the links green on hover.
+*/
+a:hover{
+    color: green;
+}
 
