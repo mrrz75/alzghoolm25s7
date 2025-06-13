@@ -62,6 +62,7 @@ Give the ul used for the contact details a background-color of #eeeeee, and a 5p
 ul{
     background-color:#eeeeee ;
     border: solid 5px purple;
+    padding: 4em;
 }
 
 
