@@ -1,3 +1,10 @@
+/*
+
+    Name: Your Name
+	    File: style.css
+	    Date: 13 June 2025
+	    assignment 3 part 1....
+*/
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,4 +32,13 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+}
+
+/*
+
+Make the level one heading pink, using the CSS color keyword hotpink.
+*/
+
+h1{
+    color: hotpink;
 }
