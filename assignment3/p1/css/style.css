@@ -34,11 +34,19 @@ a:hover {
   text-decoration: none;
 }
 
-/*
 
-Make the level one heading pink, using the CSS color keyword hotpink.
-*/
 
 h1{
+    /*
+    Make the level one heading pink, using the CSS color keyword hotpink.
+    */
     color: hotpink;
+    /*
+        Give the heading a 10px dotted border-bottom which uses the CSS color keyword purple.
+    */
+    border-bottom: 10px dotted purple;
 }
+
+
+
+
