@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Week 4</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Week 4: HTML Table</h1>
-</body>
+    <table border="2">
+      <caption>
+        Student List (INFT1206)
+      </caption>
+      <thead style="background-color: yellow;">
+        <tr>
+          <th>NO</th>
+          <th>Name</th>
+          <th>PROGRAM</th>
+        </tr>
+      </thead>
+      <tbody style="background-color: greenyellow;">
+        <tr>
+          <td>1</td>
+          <td>Sam</td>
+          <td rowspan="2">IT</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Tom</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Mia</td>
+          <td>Programming</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Prepared by:</td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
 </html>
