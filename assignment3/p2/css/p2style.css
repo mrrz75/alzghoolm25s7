@@ -11,3 +11,26 @@ html {
 }
 
 /* Your CSS below here */
+
+div{
+    /* position: absolute; */
+    /*A reasonable width for a large box, say around 200 pixels.*/
+    border:20px solid black;
+    width: 400px;
+    
+    /* A reasonable height for a large box, centering the text vertically in the process. */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    
+    margin: auto;
+
+    /* Center the box horizontally. */
+   
+    /* Center the text within the box */
+   
+    font-size: 1.5rem;
+
+}
